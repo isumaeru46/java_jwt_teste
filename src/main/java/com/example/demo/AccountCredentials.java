@@ -2,23 +2,23 @@ package com.example.demo;
 
 public class AccountCredentials {
 	
-	private String username;
-	private String password;
+	private String loginOuEmail;
+	private String senha;
 	
 	public String getUsername() {
-		return username;
+		return loginOuEmail;
 	}
 	
 	public void setUsername(String username) {
-		this.username = username;
+		this.loginOuEmail = username;
 	}
 	
 	public String getPassword() {
-		return password;
+		return senha;
 	}
 	
 	public void setPassword(String password) {
-		this.password = password;
+		this.senha = password;
 	}
 
 }
